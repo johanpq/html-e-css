@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: beige;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 15vh;
+    font-variant: small-caps;
+    padding-top: 70px;
+}
+header p {
+    font-size: 1.2em;
+    padding-bottom: 70px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+}
+header a :hover, footer a :hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+header a :active, footer a :active {
+    color: rgba(137, 43, 226, 0.774);
+}
+main {
+    font-family: 'Sriracha', cursive;
+    line-height: 5.5em;
+}
+main p {
+    padding-left: 15px;
+    line-height: 2em;
+}
+section {
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+
+.foto {
+    
+   /* min-height: 96vh; */ 
+    background-color: beige;
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 1px 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foto > p {
+    display: inline-block;
+  /*  min-height: 96vh; 
+    width: 570px; */
+    background-color: rgba(22, 22, 22, 0.281);
+    color: white;
+    border: 1px rgba(0, 0, 0, 0.205);
+    box-shadow: 0px 0px 3px -3px;
+}
+.foto2 {
+    /*min-height: 96vh;*/
+    background-color: beige;
+    background-image: url(imagens/background002.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 1px 1px;
+}
+.foto2 > p {
+    display: inline-block;
+   /* min-height: 96vh;
+    width: 570px; */
+    background-color: rgba(22, 22, 22, 0.137);
+    color: white;
+    box-shadow: 0px 0px 3px -3px;
+}
+footer {
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+

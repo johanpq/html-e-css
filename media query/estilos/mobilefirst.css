@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+body {
+    background-color: antiquewhite;
+}
+header {
+    background-color: #383838;
+}
+header h1 {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+nav {
+    display: block;
+    padding: 10px;
+}
+menu {
+    display: none;
+    text-align: center;
+}
+menu li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px;
+}
+menu a {
+    text-decoration: none;
+}
+menu li:hover {
+    color: rgba(107, 238, 238, 0.795);
+}
+#burguer {
+    display: block;
+    background-color: rgba(0, 255, 255, 0.185);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+#burguer:hover {
+    color: rgb(190, 193, 196);
+    background-color: rgba(10, 12, 12, 0.199);
+}
+main {
+    background-color: rgba(240, 255, 255, 0.603);
+    padding: 20px;
+    border: 1px solid rgba(226, 31, 31, 0.199);
+    border-radius: 15px;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+main div {
+    text-align: justify;
+    text-indent: 20px;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+footer p {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 255, 255, 0.205);
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px -5px;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover {
+    color: #2c2c2c;
+    transform: translate(-2px, 2px);
+    transition: transform 0.2s;
+}

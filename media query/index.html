@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/mobilefirst.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaqueries.css" media="screen">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Media Query</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>My website</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <a href="#">
+                    <li>Option 1</li>
+                </a>
+                <a href="#">
+                    <li>Option 2</li>
+                </a>
+                <a href="#">
+                    <li>Option 3</li>
+                </a>
+                <a href="#">
+                    <li>Option 4</li>
+                </a>
+                <a href="#">
+                    <li>Option 5</li>
+                </a>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <h2>Testing Media Queries</h2>
+
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa molestias magnam qui nostrum incidunt totam deleniti corrupti quia architecto dolores nihil delectus, eaque voluptate quaerat dolor eveniet, eius nobis facere! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur laborum, totam commodi dicta quibusdam tempore nam doloribus atque voluptatibus maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, tempore!</div>
+        <br>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque esse, vel voluptas nulla dignissimos. Sit, quod consequuntur numquam eius, quam commodi ad iusto reprehenderit blanditiis quisquam at similique fugiat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, repudiandae.</div>
+        <br>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione at dolorum amet obcaecati sapiente inventore minima ad, atque ex, laborum exercitationem quasi numquam deleniti repudiandae veniam enim distinctio optio nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ratione molestias rem esse dolorem libero aliquid accusantium nostrum excepturi tempore harum incidunt porro neque, error perferendis fugit ad, voluptas necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, architecto excepturi necessitatibus totam qui earum beatae quasi quae illo quia! Fuga reprehenderit deserunt cumque magnam. Aliquam doloribus saepe quis cum.</div>
+    </main>
+    <footer>
+        <a href="https://github.com/johanpq" target="_blank">
+            <p>Made by Johan Queiroz and based on the Curso em Video</p>
+        </a>
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block';
+            } else {
+                itens.style.display = 'none';
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -14,30 +14,28 @@ body {
 }
 h2 {
     text-align: center;
-    margin: -30px;
+    margin: 10px;
     margin-bottom: 15px;
 }
 p {
     text-align: justify;   
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-shadow: 0px 0px 0px;
 }
 .box {
-    background-color: rgb(98, 142, 180);
-    position: absolute;
+    background-image: linear-gradient(to bottom, rgb(98, 142, 180), rgba(34, 121, 121, 0.247));
+    position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -40%);
-    height: 400px;
+    transform: translate(-50%, -50%);
     border: 1px solid rgba(0, 0, 0, 0.164);
     border-radius: 50px;
-    margin-top: 30px;
-    height: 70vh;
+    height: 95vh;
 }
 form {
+    display: block;
     width: 70vw;
-    padding: 20px;
-    margin: 20px;
+    height: 95vh;
 }
 form input {
     display: flex;
@@ -51,12 +49,12 @@ form input {
 }
 .imagem {
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
-    background-color: pink;
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 210px;
-    margin-top: -150px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
+    height: 35vw;
+    margin-top: -2px;
+    margin-left: -1px;
+    margin-right: -2px;
 }

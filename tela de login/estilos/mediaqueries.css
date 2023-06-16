@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .imagem {
+        display: flex;
+        float: left;
+        height: 95vh;
+        width: 35vw;
+        margin-top: -1px;
+        margin-left: -5px;
+        border-radius: 30px;
+        background-color: pink;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-right: 15px;
+        margin-left: -1px;
+    }
+    form {
+        margin-top: 140px;
+    }
+    form input {
+        float: right;
+        width: 200px;
+        margin-left: 300px;
+    }
     
 }

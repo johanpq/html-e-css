@@ -12,7 +12,7 @@ html, body {
 }
 main {
     position: absolute;
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.288), rgba(0, 0, 255, 0.151));
+    background-color: #38383854;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -22,9 +22,8 @@ main {
 }
 .imagem {
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 30vh;
     border-top-left-radius: 30px;
@@ -44,7 +43,7 @@ form {
 }
 form input {
     display: block;
-    height: 20px;
+    height: 25px;
     width: 45vw;
     margin: auto;
     margin-bottom: 5px;

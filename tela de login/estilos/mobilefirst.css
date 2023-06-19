@@ -22,6 +22,8 @@ main {
     height: 90vh;
     width: 60vw;
     border-radius: 30px;
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease; /*pra dar uma suavizada na animação*/
 }
 .imagem {
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);

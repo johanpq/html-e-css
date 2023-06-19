@@ -12,16 +12,16 @@
         <main>
             <section class="box">
                 <div class="imagem"></div>
-                <form action="cadastro.js" method="post">
+                <form action="cadastro.js" method="post" autocomplete="on">
                     <h2>Login</h2>
                     <p>Welcome(a) again. Sign up to acess your account and setting your environment.</p>
                     <div>
                         <label for="Ilogin">Login</label>
-                        <input type="text" name="login" id="Ilogin">
+                        <input type="text" name="login" id="Ilogin" autocomplete="email" placeholder="Digite seu E-mail" required>
                     </div>
                     <div>
                         <label for="Isenha">Senha</label>
-                        <input type="password" name="senha" id="Isenha">
+                        <input type="password" name="senha" id="Isenha" autocomplete="current-password" placeholder="Digite sua senha" minlength="8" maxlength="20" required>
                     </div>
                     <span class="sub">
                         <input type="submit" value="Entrar">

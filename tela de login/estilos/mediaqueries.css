@@ -22,6 +22,7 @@
     .box-input {
         display: inline-block;
         width: 40%;
+        margin: 5px;
     }
     input[type = submit] {
         display: inline-block;
@@ -66,6 +67,31 @@
     p {
         margin: 0px 5px 15px;
     }
+    .box-input {
+        display: inline-block;
+        width: 50%;
+        margin: 5px;
+    }
+    input[type = submit] {
+        display: inline-block;
+        width: 40%;
+        margin-top: 5px;
+    }
+    a {
+        display: inline-block;
+        width: 40%;
+    }
+    .box-input:hover {
+        color: white;
+        background-color: rgb(173, 139, 211);
+        transition: color .3s, background-color .5s;
+    }
+    input[type = submit]:hover {
+        transition: background-color .3s, color .2s;
+    }
+    a:hover {
+        transition: background-color .3s, color .2s;
+    }
 }
 @media screen and (min-width: 1200px) {
     main {
@@ -81,6 +107,61 @@
         border-top-left-radius: 0px;
         border-bottom-right-radius: 30px;
     }
+    h2 {
+        margin-top: -100px;
+    }
+    form {
+        margin-top: 200px;
+    }
+    form input {
+        width: 35vw;
+    }
+    p {
+        margin: 0px 5px 15px;
+    }
+    .box-input {
+        display: inline-block;
+        width: 50%;
+        margin: 5px;
+    }
+    input[type = submit] {
+        display: inline-block;
+        width: 40%;
+        margin-top: 5px;
+    }
+    a {
+        display: inline-block;
+        width: 40%;
+    }
+    .box-input:hover {
+        color: white;
+        background-color: rgb(173, 139, 211);
+        transition: color .3s, background-color .5s;
+    }
+    input[type = submit]:hover {
+        transition: background-color .3s, color .2s;
+    }
+    a:hover {
+        transition: background-color .3s, color .2s;
+    }
+}
+@media screen and (orientation: portrait) and (min-width: 1200px) {
+    main {
+        width: 85vw;
+        height: 70vh;
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.24), rgba(0, 0, 255, 0.199))
+    }
+    .imagem {
+        float: right;
+        height: 70vh;
+        width: 40vw;
+        margin-top: -50px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 30px;
+    }
+    h2 {
+        margin-top: -50px;
+    }
     form {
         margin-top: 100px;
     }
@@ -89,5 +170,30 @@
     }
     p {
         margin: 0px 5px 15px;
+    }
+    .box-input {
+        display: inline-block;
+        width: 50%;
+        margin: 5px;
+    }
+    input[type = submit] {
+        display: inline-block;
+        width: 40%;
+        margin-top: 5px;
+    }
+    a {
+        display: inline-block;
+        width: 40%;
+    }
+    .box-input:hover {
+        color: white;
+        background-color: rgb(173, 139, 211);
+        transition: color .3s, background-color .5s;
+    }
+    input[type = submit]:hover {
+        transition: background-color .3s, color .2s;
+    }
+    a:hover {
+        transition: background-color .3s, color .2s;
     }
 }

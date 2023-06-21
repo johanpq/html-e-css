@@ -69,7 +69,6 @@ label {
 .box-input:hover {
     color: white;
     background-color: rgb(173, 139, 211);
-    transition: color .3s, background-color .5s;
 }
 input[type = submit] {
     background-color: rgb(139, 84, 201);

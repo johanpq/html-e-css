@@ -8,19 +8,39 @@
         float: left;
         height: 90vh;
         width: 30vw;
-        margin-top: -120px;
+        margin-top: -80px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 30px;
     }
     form input {
-        width: 25vh;
+        width: 75%;    
     }
     h2 {
         font-size: 1.7em;
-        margin-top: 120px;
+        margin-top: 80px;
     }
     .box-input {
-        width: 90%;
+        display: inline-block;
+        width: 40%;
+    }
+    input[type = submit] {
+        display: inline-block;
+        width: 40%;
+    }
+    a {
+        display: inline-block;
+        width: 40%;
+    }
+    .box-input:hover {
+        color: white;
+        background-color: rgb(173, 139, 211);
+        transition: color .3s, background-color .5s;
+    }
+    input[type = submit]:hover {
+        transition: background-color .3s, color .2s;
+    }
+    a:hover {
+        transition: background-color .3s, color .2s;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {

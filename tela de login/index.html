@@ -15,19 +15,27 @@
                 <form action="cadastro.js" method="post" autocomplete="on">
                     <h2>Login</h2>
                     <p>Welcome(a) again. Sign up to acess your account and setting your environment.</p>
-                    <div>
-                        <label for="Ilogin">Login</label>
-                        <input type="text" name="login" id="Ilogin" autocomplete="email" placeholder="Digite seu E-mail" required>
-                    </div>
-                    <div>
-                        <label for="Isenha">Senha</label>
-                        <input type="password" name="senha" id="Isenha" autocomplete="current-password" placeholder="Digite sua senha" minlength="8" maxlength="20" required>
-                    </div>
-                    <span class="sub">
+                    <section class="box-input">
+                        <div>
+                            <span class="material-icons md-dark">person</span>
+                            <input type="text" name="login" id="Ilogin" autocomplete="email" placeholder="Digite seu E-mail" required>
+                            <label for="Ilogin">Login</label>
+                        </div>
+                    </section>
+                    <section class="box-input">
+                        <div>
+                            <span class="material-icons md-dark">lock</span>
+                            <input type="password" name="senha" id="Isenha" autocomplete="current-password" placeholder="Digite sua senha" minlength="8" maxlength="20" required>
+                            <label for="Isenha">Senha</label>
+                        </div>
+                    </section>
+                    <span>
                         <input type="submit" value="Entrar">
                     </span>
                     <span>
-                        <input type="submit" value="Esqueci a senha">
+                        <a href="#" target="_self" rel="next">
+                            <span>Esqueci a Senha</span>
+                        </a>
                     </span>
                 </form>
             </section>

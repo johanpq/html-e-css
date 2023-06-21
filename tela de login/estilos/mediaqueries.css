@@ -13,11 +13,14 @@
         border-bottom-left-radius: 30px;
     }
     form input {
-        width: 25vw;
+        width: 25vh;
     }
     h2 {
         font-size: 1.7em;
         margin-top: 120px;
+    }
+    .box-input {
+        width: 90%;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {

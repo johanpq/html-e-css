@@ -49,11 +49,56 @@ form {
 form input {
     display: block;
     height: 25px;
-    width: 45vw;
+    width: 80%;
     margin: auto;
-    margin-bottom: 5px;
     border: 1px solid rgba(0, 0, 0, 0.226);
-    box-shadow: 0px 0px 1px 0px;
-    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 5px;
     text-align: center;
+}
+label {
+    display: none;
+}
+.box-input {
+    display: block;
+    margin: 15px;
+    padding: 4px;
+    background-color: rgb(127, 106, 151);
+    border-radius: 10px;
+}
+.box-input:hover {
+    color: white;
+    background-color: rgb(173, 139, 211);
+    transition: color .3s, background-color .5s;
+}
+input[type = submit] {
+    background-color: rgb(139, 84, 201);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+input[type = submit]:hover {
+    background-color: rgb(118, 45, 201); 
+    color: white;
+}
+a {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(209, 102, 219, 0.562);
+    height: 25px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: black;
+    cursor: pointer;
+    padding: 4px;
+}
+a:hover {
+    background-color: rgba(142, 25, 153, 0.562);
+    color: white;
+}
+.material-icons {
+    float: left;
 }

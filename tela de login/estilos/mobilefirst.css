@@ -64,19 +64,23 @@ label {
     margin: 12px;
     background-color: rgb(127, 106, 151);
     border-radius: 10px;
+    width: 93%;
 }
 input[type = text] {
-    width: 47vw;
+    width: 90%;
+    margin: auto;
     border-radius: 10px;
 }
 input[type = password] {
-    width: 260px;
+    width: 90%;
+    margin: auto;
     border-radius: 10px;
 }
 input[type = submit] {
     background-color: rgb(139, 84, 201);
     cursor: pointer;
     margin-bottom: 10px;
+    margin: auto;
 }
 input[type = submit]:hover {
     background-color: rgb(118, 45, 201); 
@@ -108,6 +112,4 @@ a:hover {
     color: black;
     font-size: 2em;
     border-radius: 8px;
-    margin-top: -2px;
-    width: 40px;
 }

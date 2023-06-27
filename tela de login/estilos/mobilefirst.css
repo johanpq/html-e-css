@@ -66,10 +66,6 @@ label {
     background-color: rgb(127, 106, 151);
     border-radius: 10px;
 }
-.box-input:hover {
-    color: white;
-    background-color: rgb(173, 139, 211);
-}
 input[type = submit] {
     background-color: rgb(139, 84, 201);
     cursor: pointer;
@@ -78,6 +74,7 @@ input[type = submit] {
 input[type = submit]:hover {
     background-color: rgb(118, 45, 201); 
     color: white;
+    transition: color .2s, background-color .3s;
 }
 a {
     display: block;
@@ -97,6 +94,7 @@ a {
 a:hover {
     background-color: rgba(142, 25, 153, 0.562);
     color: white;
+    transition: color .2s, background-color .3s;
 }
 .material-icons {
     float: left;

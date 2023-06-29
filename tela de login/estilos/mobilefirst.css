@@ -72,10 +72,18 @@ input[type = text] {
     margin: auto;
     border-radius: 10px;
 }
+input[type = text]:focus-within {
+    color: rgb(127, 106, 151);
+    background-color: white;
+}
 input[type = password] {
     width: calc(100% - 33px);
     margin: auto;
     border-radius: 10px;
+}
+input[type = password]:focus-within {
+    color: rgb(127, 106, 151);
+    background-color: white;
 }
 input[type = submit] {
     background-color: rgb(139, 84, 201);
@@ -112,4 +120,10 @@ a:hover {
     color: black;
     font-size: 2em;
     border-radius: 8px;
+}
+#fg {
+    position: absolute;
+    float: right;
+    font-size: 1.4em;
+    margin: -3px 0px 0px 5px;
 }
